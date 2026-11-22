@@ -1,6 +1,6 @@
 # country-search
 
-A small ASP.NET Core API used to show what OpenTelemetry records on its own, and what it cannot.
+Find a search request’s trace in the dashboard and look for the result count that the ASP.NET Core app adds.
 
 One route, `GET /api/countries/search?query=land`, searching a list of countries held in memory. No database, no external call. The application is deliberately dull so the telemetry is the interesting part.
 
